@@ -141,14 +141,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.iop@2.0-service \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.2-service \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.servicetracker@1.2-service \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.power.pasrmanager@1.0-service \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@1.0-service \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@2.0-service \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@3.0-service \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.vibratorfeature@1.0-service \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
@@ -302,7 +298,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
@@ -313,9 +308,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
@@ -465,7 +457,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/hw/vendor.qti.power.pasrmanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.power.pasrmanager@1.0-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.vibratorfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.vibratorfeature@1.0-impl.so \
@@ -543,9 +534,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneoplookup.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libcvp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_common.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libcvp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_stub.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdataitems.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
@@ -761,7 +749,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cacert@1.0.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cvp@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -954,13 +941,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.vibratorfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.vibratorfeature@1.0-impl.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
@@ -1060,16 +1043,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcheckpid.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcvp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_common.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcvp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_stub.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
@@ -1122,7 +1101,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblogwrap_vendor.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
@@ -1283,7 +1261,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cvp@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -1336,9 +1313,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.qti.power.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.power.pasrmanager@1.0.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.1.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
@@ -1377,7 +1351,4 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_vendor.xiaomi.hardware.mlipay \
     vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0
+    vendor.qti.hardware.servicetracker@1.2-service
